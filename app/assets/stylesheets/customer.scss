@@ -1,0 +1,19 @@
+// Place all the styles related to the Customer controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.card{
+  width: 350px;
+  height: 500px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #e3dfe4;
+}
+.columns{
+  flex-wrap: nowrap;
+
+}
+
+p{
+  word-wrap: break-word;
+}
