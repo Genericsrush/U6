@@ -10,8 +10,11 @@
   border-color: #e3dfe4;
 }
 .columns{
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 
+}
+.column{
+  padding:5px;
 }
 
 p{

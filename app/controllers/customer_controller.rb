@@ -1,13 +1,13 @@
 class CustomerController < ApplicationController
   def index
-    @customers = Customer.all.limit(4)
+    @customers = Customer.all
   end
 
   def alphabetized
-    @customers = Customer.order(:full_name).limit(4)
+    @customers = Customer.order(:full_name)
   end
 
   def missing_email
-    @customers = Customer.where(email_address: "").limit(4)
+    @customers = Customer.where(email_address: "")
   end
 end
